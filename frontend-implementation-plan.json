@@ -1,0 +1,276 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "ImpactFlow — Social Impact Marketing Agency Website",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Create responsive navigation bar with brand logo and smooth scroll",
+      "acceptanceCriteria": [
+        "Navbar is sticky on scroll",
+        "Logo uses deep blue and emerald green typography",
+        "All nav links scroll smoothly to their respective sections",
+        "Navbar is fully responsive on mobile (hamburger menu)"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Navbar.tsx",
+          "operation": "create",
+          "description": "Create responsive navigation component with ImpactFlow text logo styled in deep blue (#0B3D91) and emerald green. Include nav links for About, Solutions, Industries, How It Works, and Contact sections. Implement sticky scroll behavior and smooth scrolling to section anchors. Add mobile hamburger menu for responsive design."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Navbar component at the top of the application layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Build hero section with headline, CTAs, and water-inspired gradient background",
+      "acceptanceCriteria": [
+        "Headline and subheadline render prominently with bold typography",
+        "Two CTA buttons are visible and styled per brand colors",
+        "Background gradient transitions from deep blue to soft aqua",
+        "Floating bottle silhouettes are subtle and not distracting",
+        "Section is full-viewport height on desktop"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "create",
+          "description": "Create hero section component with headline 'Where Marketing Meets Social Impact', subheadline text, and two CTA buttons ('Start a Campaign' primary, 'Partner With Us' secondary outline). Apply background using the generated hero-bg.dim_1920x1080.png image from frontend/public/assets/generated/hero-bg.dim_1920x1080.png with soft gradient overlay from deep blue to soft aqua. Add subtle CSS/SVG floating bottle silhouettes. Make section full-viewport height on desktop."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the HeroSection component below the Navbar."
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Build About Us section with title, body copy, and four-point list",
+      "acceptanceCriteria": [
+        "Section title, body copy, and four bullet points all render correctly",
+        "Closing line is visually distinct (e.g., italic or accent color)",
+        "Layout is clean, uncluttered, and responsive"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/AboutSection.tsx",
+          "operation": "create",
+          "description": "Create About Us section component titled 'Redefining Grassroots Marketing' with body copy and four bullet points: Strategic local outreach, Free community giveaways, Responsible brand messaging, High-trust public engagement. Add closing line 'We believe marketing works best when it benefits both brands and people.' styled distinctly. Ensure clean, responsive layout."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the AboutSection component with id='about' for navigation anchor."
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Build Water Marketing Solution section with campaign details and bottle mockup",
+      "acceptanceCriteria": [
+        "All body copy and bullet points render correctly",
+        "Pricing is displayed professionally without profit/margin language",
+        "CSS/SVG bottle mockup is clean, minimal, and visually on-brand",
+        "Section layout is responsive"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/WaterSolutionSection.tsx",
+          "operation": "create",
+          "description": "Create Water Marketing Solution section titled 'Branded Water Distribution Campaigns' with body copy, four-point campaign inclusions list, and pricing details (Minimum Order: 25,000 branded bottles, ₹8 per bottle, excluding campaign customization). Include CSS/SVG illustrated mineral water bottle mockup with customizable label area in brand colors. Ensure professional pricing display without profit/margin language."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the WaterSolutionSection component with id='solutions' for navigation anchor."
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Build Target Industries section with five industry icon cards",
+      "acceptanceCriteria": [
+        "Five industry cards render with distinct icons and labels",
+        "Tagline appears below the cards",
+        "Cards are displayed in a responsive grid",
+        "Icons use brand accent colors"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/IndustriesSection.tsx",
+          "operation": "create",
+          "description": "Create Target Industries section titled 'Built for Impact-Driven Brands' with five icon cards: Schools & Educational Institutions, Colleges & Coaching Centers, Hospitals & Healthcare Providers, Community Events & Social Campaigns, Local Businesses & Expanding Brands. Each card has an icon and short label. Add tagline 'We specialize in organizations that serve people across all age groups.' Display cards in responsive grid with brand accent colors."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the IndustriesSection component with id='industries' for navigation anchor."
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Build How It Works section with 5-step process and scroll animations",
+      "acceptanceCriteria": [
+        "All five steps render with icons, titles, and descriptions",
+        "Steps are visually connected (e.g., connecting line or arrow)",
+        "Entrance animations trigger on scroll",
+        "Layout is responsive (stacks vertically on mobile)"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HowItWorksSection.tsx",
+          "operation": "create",
+          "description": "Create How It Works section with 5 steps: (1) Campaign Planning, (2) Custom Branding, (3) Production & Quality Check, (4) Targeted Distribution, (5) Campaign Report. Each step has numbered icon, title, and description. Add visual connectors between steps and subtle entrance animations (fade-in or slide-in) triggered on scroll. Make responsive with vertical stacking on mobile."
+        },
+        {
+          "path": "frontend/src/hooks/useScrollAnimation.ts",
+          "operation": "create",
+          "description": "Create custom hook for scroll-triggered animations using Intersection Observer API to detect when elements enter viewport and apply fade-in/slide-in animations."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the HowItWorksSection component."
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Build Social Impact section with body copy and community illustration",
+      "acceptanceCriteria": [
+        "Section title and body copy render correctly",
+        "Community illustration image is displayed as section visual",
+        "Section layout is responsive with text and image side by side on desktop"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/SocialImpactSection.tsx",
+          "operation": "create",
+          "description": "Create Social Impact section titled 'Marketing With Meaning' with body copy about community utility, hydration, and responsible brand visibility. Display the generated community illustration image from frontend/public/assets/generated/community-event.dim_1200x600.png as the section visual. Use responsive layout with text and image side by side on desktop."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the SocialImpactSection component."
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Build Why Choose Us section with five value proposition cards",
+      "acceptanceCriteria": [
+        "All five points render with icons and text",
+        "Cards are displayed in a clean grid layout",
+        "Design is minimal and consistent with brand colors"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/WhyChooseUsSection.tsx",
+          "operation": "create",
+          "description": "Create Why Choose Us section with five value proposition cards: Transparent campaign structure, Hyperlocal targeting expertise, Clean and compliant branding, Strong community engagement, Designed for trust-building. Each card has icon and text. Display in clean grid layout with minimal design consistent with brand colors."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the WhyChooseUsSection component."
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Build contact section with form integrated to Formspree",
+      "acceptanceCriteria": [
+        "All five form fields render and are required",
+        "Form submits via POST to Formspree endpoint",
+        "Success message displays after successful submission",
+        "Formspree endpoint URL is clearly marked with a comment for easy replacement",
+        "Form is styled consistently with the brand"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactSection.tsx",
+          "operation": "create",
+          "description": "Create contact section with CTA headline 'Let's Build Impact Together' and form with fields: Name, Organization, Phone, Email, Campaign Objective (textarea). All fields required. Integrate form with Formspree by submitting via POST to Formspree endpoint (include clear comment indicating where to replace the endpoint URL). Display success message after submission. Style consistently with brand colors."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the ContactSection component with id='contact' for navigation anchor."
+        }
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "summary": "Build minimal footer with navigation, social icons, and tagline",
+      "acceptanceCriteria": [
+        "All four nav links are present and functional",
+        "Social media icon placeholders are rendered",
+        "Tagline is displayed",
+        "Footer background uses brand deep blue color",
+        "Layout is responsive"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "create",
+          "description": "Create minimal footer component with navigation links (About, Solutions, Industries, Contact), social media icon placeholders, and tagline 'Strategic Marketing. Community Impact.' Style with deep blue (#0B3D91) background and emerald green accents. Ensure responsive layout."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Footer component at the bottom of the application layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "summary": "Apply consistent design system with brand colors, typography, and scroll animations",
+      "acceptanceCriteria": [
+        "Color palette is consistent across all sections",
+        "Typography hierarchy is clear and uses sans-serif fonts",
+        "Scroll-triggered fade-in animations are present on at least the main content sections",
+        "No section feels overcrowded or cluttered",
+        "Site is fully responsive across mobile, tablet, and desktop"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Define global design system with primary color deep blue (#0B3D91), accent emerald green, soft aqua gradient as secondary, white background. Set up bold sans-serif headings and clean body typography. Add utility classes for scroll-triggered fade-in animations. Ensure premium, minimal, corporate, trust-building aesthetic with no clutter."
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Extend Tailwind configuration with brand color palette: deep blue (#0B3D91) as primary, emerald green as accent, soft aqua gradient colors. Configure typography with sans-serif font family for headings and body. Add custom animation utilities for fade-in effects."
+        }
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "summary": "Render generated images as static assets in appropriate sections",
+      "acceptanceCriteria": [
+        "Images load correctly from the /assets/generated path",
+        "Hero background image is applied to the hero section",
+        "Community illustration image is displayed in the Social Impact section"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Verify hero-bg.dim_1920x1080.png from frontend/public/assets/generated/hero-bg.dim_1920x1080.png is applied as background image in the hero section component."
+        },
+        {
+          "path": "frontend/src/components/SocialImpactSection.tsx",
+          "operation": "modify",
+          "description": "Verify community-event.dim_1200x600.png from frontend/public/assets/generated/community-event.dim_1200x600.png is rendered as the section visual in the Social Impact section component."
+        }
+      ]
+    }
+  ]
+}

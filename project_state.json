@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Building a full business website for 'ImpactFlow', a Social Impact Marketing & Brand Activation Agency. Features branded water bottle distribution campaigns, community-first messaging, and a clean deep blue/emerald green design system. Includes hero, about, water marketing solution, target industries, how it works, social impact, why choose us, and contact sections. Uses Formspree for contact form and CSS/SVG bottle mockup.",
+  "architectural_notes": [
+    "Frontend-only website; contact form uses Formspree integration (user must replace endpoint with their own)",
+    "Color palette: Primary Deep Blue (#0B3D91), Accent Emerald Green, Secondary Soft Aqua gradient, Background Clean White",
+    "Company name: ImpactFlow — text-based logo in brand colors",
+    "Water bottle mockup built as CSS/SVG illustration with customizable label area"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Minimalistic illustration of people at a community outdoor event receiving water bottles, soft warm tones with green and blue accents, modern flat art style (community-event.dim_1200x600.png)\n- Abstract water-inspired background with soft deep blue to aqua gradient and faint translucent bottle silhouettes, clean and premium (hero-bg.dim_1920x1080.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-responsive-navigation-bar-with-the-impactflow-brand-name-styled-as-a-text-logo-using-deep-blue-0b3d91-and-emerald-green-include-nav-links-about-solutions-industries-how-it-works-contact-add-a-sticky-scroll-effect-and-smooth-scroll-to-sections",
+      "title": "Create a responsive navigation bar with the 'ImpactFlow' brand name styled as a text logo using deep blue (#0B3D91) and emerald green. Include nav links: About, Solutions, Industries, How It Works, Contact. Add a sticky/scroll effect and smooth scroll to sections.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-hero-section-with-headline-where-marketing-meets-social-impact-subheadline-we-help-schools-hospitals-and-growing-brands-connect-with-communities-through-purpose-driven-offline-campaigns-and-two-cta-buttons-start-a-campaign-primary-and-partner-with-us-secondary-outline-background-should-be-a-soft-abstract-water-inspired-gradient-deep-blue-to-soft-aqua-with-subtle-floating-bottle-silhouettes-rendered-in-css-svg-minimal-and-modern",
+      "title": "Build a hero section with headline 'Where Marketing Meets Social Impact', subheadline 'We help schools, hospitals, and growing brands connect with communities through purpose-driven offline campaigns.', and two CTA buttons: 'Start a Campaign' (primary) and 'Partner With Us' (secondary outline). Background should be a soft abstract water-inspired gradient (deep blue to soft aqua) with subtle floating bottle silhouettes rendered in CSS/SVG, minimal and modern.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-an-about-us-section-titled-redefining-grassroots-marketing-with-the-provided-body-copy-and-a-four-point-bullet-list-strategic-local-outreach-free-community-giveaways-responsible-brand-messaging-high-trust-public-engagement-end-with-the-line-we-believe-marketing-works-best-when-it-benefits-both-brands-and-people",
+      "title": "Build an 'About Us' section titled 'Redefining Grassroots Marketing' with the provided body copy and a four-point bullet list: Strategic local outreach, Free community giveaways, Responsible brand messaging, High-trust public engagement. End with the line: 'We believe marketing works best when it benefits both brands and people.'",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-water-marketing-solution-section-titled-branded-water-distribution-campaigns-with-the-provided-body-copy-a-four-point-campaign-inclusions-list-and-pricing-details-minimum-order-25-000-branded-bottles-8-per-bottle-excluding-campaign-customization-include-a-css-svg-illustrated-mineral-water-bottle-mockup-with-a-customizable-label-area-styled-minimally-in-brand-colors",
+      "title": "Build a 'Water Marketing Solution' section titled 'Branded Water Distribution Campaigns' with the provided body copy, a four-point campaign inclusions list, and pricing details (Minimum Order: 25,000 branded bottles, ₹8 per bottle, excluding campaign customization). Include a CSS/SVG illustrated mineral water bottle mockup with a customizable label area, styled minimally in brand colors.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-target-industries-section-titled-built-for-impact-driven-brands-showing-five-icon-cards-schools-educational-institutions-colleges-coaching-centers-hospitals-healthcare-providers-community-events-social-campaigns-local-businesses-expanding-brands-each-card-has-an-icon-and-short-label-add-tagline-we-specialize-in-organizations-that-serve-people-across-all-age-groups",
+      "title": "Build a 'Target Industries' section titled 'Built for Impact-Driven Brands' showing five icon cards: Schools & Educational Institutions, Colleges & Coaching Centers, Hospitals & Healthcare Providers, Community Events & Social Campaigns, Local Businesses & Expanding Brands. Each card has an icon and short label. Add tagline: 'We specialize in organizations that serve people across all age groups.'",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-how-it-works-section-with-a-clean-5-step-process-1-campaign-planning-2-custom-branding-3-production-quality-check-4-targeted-distribution-5-campaign-report-each-step-has-a-numbered-icon-title-and-short-description-include-subtle-entrance-animations-fade-in-or-slide-in-on-scroll",
+      "title": "Build a 'How It Works' section with a clean 5-step process: (1) Campaign Planning, (2) Custom Branding, (3) Production & Quality Check, (4) Targeted Distribution, (5) Campaign Report. Each step has a numbered icon, title, and short description. Include subtle entrance animations (fade-in or slide-in on scroll).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-social-impact-section-titled-marketing-with-meaning-with-the-provided-body-copy-about-community-utility-hydration-and-responsible-brand-visibility-include-a-generated-community-illustration-image-as-the-section-visual",
+      "title": "Build a 'Social Impact' section titled 'Marketing With Meaning' with the provided body copy about community utility, hydration, and responsible brand visibility. Include a generated community illustration image as the section visual.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-why-choose-us-section-with-five-value-proposition-points-displayed-as-icon-text-cards-transparent-campaign-structure-hyperlocal-targeting-expertise-clean-and-compliant-branding-strong-community-engagement-designed-for-trust-building",
+      "title": "Build a 'Why Choose Us' section with five value proposition points displayed as icon + text cards: Transparent campaign structure, Hyperlocal targeting expertise, Clean and compliant branding, Strong community engagement, Designed for trust-building.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-contact-section-with-cta-headline-let-s-build-impact-together-and-a-form-with-fields-name-organization-phone-email-campaign-objective-textarea-integrate-the-form-with-formspree-so-submissions-are-sent-via-post-to-a-formspree-endpoint-show-a-success-message-after-submission-include-a-comment-in-code-indicating-where-to-replace-the-formspree-endpoint-url",
+      "title": "Build a contact section with CTA headline 'Let's Build Impact Together' and a form with fields: Name, Organization, Phone, Email, Campaign Objective (textarea). Integrate the form with Formspree so submissions are sent via POST to a Formspree endpoint. Show a success message after submission. Include a comment in code indicating where to replace the Formspree endpoint URL.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-minimal-footer-with-navigation-links-about-solutions-industries-contact-social-media-icon-placeholders-and-tagline-strategic-marketing-community-impact-style-consistently-with-the-deep-blue-emerald-green-brand-palette",
+      "title": "Build a minimal footer with navigation links (About, Solutions, Industries, Contact), social media icon placeholders, and tagline: 'Strategic Marketing. Community Impact.' Style consistently with the deep blue/emerald green brand palette.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-consistent-design-system-across-all-sections-primary-color-deep-blue-0b3d91-accent-emerald-green-soft-aqua-gradient-as-secondary-white-background-use-bold-sans-serif-headings-and-clean-body-typography-add-subtle-scroll-triggered-animations-fade-in-on-section-entry-ensure-the-overall-aesthetic-is-premium-minimal-corporate-and-trust-building-with-no-clutter",
+      "title": "Apply a consistent design system across all sections: Primary color deep blue (#0B3D91), accent emerald green, soft aqua gradient as secondary, white background. Use bold sans-serif headings and clean body typography. Add subtle scroll-triggered animations (fade-in) on section entry. Ensure the overall aesthetic is premium, minimal, corporate, and trust-building with no clutter.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-generated-images-community-event-illustration-and-hero-background-as-static-assets-from-frontend-public-assets-generated-and-reference-them-in-the-appropriate-sections",
+      "title": "Render the generated images (community event illustration and hero background) as static assets from frontend/public/assets/generated and reference them in the appropriate sections.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [],
+  "gameProjectType": "none",
+  "projectName": "ImpactFlow",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

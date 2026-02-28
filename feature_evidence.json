@@ -1,0 +1,234 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-responsive-navigation-bar-with-the-impactflow-brand-name-styled-as-a-text-logo-using-deep-blue-0b3d91-and-emerald-green-include-nav-links-about-solutions-industries-how-it-works-contact-add-a-sticky-scroll-effect-and-smooth-scroll-to-sections",
+      "featureTitle": "Create a responsive navigation bar with the 'ImpactFlow' brand name styled as a text logo using deep blue (#0B3D91) and emerald green. Include nav links: About, Solutions, Industries, How It Works, Contact. Add a sticky/scroll effect and smooth scroll to sections.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Navbar.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-hero-section-with-headline-where-marketing-meets-social-impact-subheadline-we-help-schools-hospitals-and-growing-brands-connect-with-communities-through-purpose-driven-offline-campaigns-and-two-cta-buttons-start-a-campaign-primary-and-partner-with-us-secondary-outline-background-should-be-a-soft-abstract-water-inspired-gradient-deep-blue-to-soft-aqua-with-subtle-floating-bottle-silhouettes-rendered-in-css-svg-minimal-and-modern",
+      "featureTitle": "Build a hero section with headline 'Where Marketing Meets Social Impact', subheadline 'We help schools, hospitals, and growing brands connect with communities through purpose-driven offline campaigns.', and two CTA buttons: 'Start a Campaign' (primary) and 'Partner With Us' (secondary outline). Background should be a soft abstract water-inspired gradient (deep blue to soft aqua) with subtle floating bottle silhouettes rendered in CSS/SVG, minimal and modern.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-an-about-us-section-titled-redefining-grassroots-marketing-with-the-provided-body-copy-and-a-four-point-bullet-list-strategic-local-outreach-free-community-giveaways-responsible-brand-messaging-high-trust-public-engagement-end-with-the-line-we-believe-marketing-works-best-when-it-benefits-both-brands-and-people",
+      "featureTitle": "Build an 'About Us' section titled 'Redefining Grassroots Marketing' with the provided body copy and a four-point bullet list: Strategic local outreach, Free community giveaways, Responsible brand messaging, High-trust public engagement. End with the line: 'We believe marketing works best when it benefits both brands and people.'",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/AboutSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-water-marketing-solution-section-titled-branded-water-distribution-campaigns-with-the-provided-body-copy-a-four-point-campaign-inclusions-list-and-pricing-details-minimum-order-25-000-branded-bottles-8-per-bottle-excluding-campaign-customization-include-a-css-svg-illustrated-mineral-water-bottle-mockup-with-a-customizable-label-area-styled-minimally-in-brand-colors",
+      "featureTitle": "Build a 'Water Marketing Solution' section titled 'Branded Water Distribution Campaigns' with the provided body copy, a four-point campaign inclusions list, and pricing details (Minimum Order: 25,000 branded bottles, ₹8 per bottle, excluding campaign customization). Include a CSS/SVG illustrated mineral water bottle mockup with a customizable label area, styled minimally in brand colors.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/WaterSolutionSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-target-industries-section-titled-built-for-impact-driven-brands-showing-five-icon-cards-schools-educational-institutions-colleges-coaching-centers-hospitals-healthcare-providers-community-events-social-campaigns-local-businesses-expanding-brands-each-card-has-an-icon-and-short-label-add-tagline-we-specialize-in-organizations-that-serve-people-across-all-age-groups",
+      "featureTitle": "Build a 'Target Industries' section titled 'Built for Impact-Driven Brands' showing five icon cards: Schools & Educational Institutions, Colleges & Coaching Centers, Hospitals & Healthcare Providers, Community Events & Social Campaigns, Local Businesses & Expanding Brands. Each card has an icon and short label. Add tagline: 'We specialize in organizations that serve people across all age groups.'",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/IndustriesSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-how-it-works-section-with-a-clean-5-step-process-1-campaign-planning-2-custom-branding-3-production-quality-check-4-targeted-distribution-5-campaign-report-each-step-has-a-numbered-icon-title-and-short-description-include-subtle-entrance-animations-fade-in-or-slide-in-on-scroll",
+      "featureTitle": "Build a 'How It Works' section with a clean 5-step process: (1) Campaign Planning, (2) Custom Branding, (3) Production & Quality Check, (4) Targeted Distribution, (5) Campaign Report. Each step has a numbered icon, title, and short description. Include subtle entrance animations (fade-in or slide-in on scroll).",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/HowItWorksSection.tsx",
+        "frontend/src/hooks/useScrollAnimation.ts"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-social-impact-section-titled-marketing-with-meaning-with-the-provided-body-copy-about-community-utility-hydration-and-responsible-brand-visibility-include-a-generated-community-illustration-image-as-the-section-visual",
+      "featureTitle": "Build a 'Social Impact' section titled 'Marketing With Meaning' with the provided body copy about community utility, hydration, and responsible brand visibility. Include a generated community illustration image as the section visual.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/SocialImpactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-why-choose-us-section-with-five-value-proposition-points-displayed-as-icon-text-cards-transparent-campaign-structure-hyperlocal-targeting-expertise-clean-and-compliant-branding-strong-community-engagement-designed-for-trust-building",
+      "featureTitle": "Build a 'Why Choose Us' section with five value proposition points displayed as icon + text cards: Transparent campaign structure, Hyperlocal targeting expertise, Clean and compliant branding, Strong community engagement, Designed for trust-building.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/WhyChooseUsSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-contact-section-with-cta-headline-let-s-build-impact-together-and-a-form-with-fields-name-organization-phone-email-campaign-objective-textarea-integrate-the-form-with-formspree-so-submissions-are-sent-via-post-to-a-formspree-endpoint-show-a-success-message-after-submission-include-a-comment-in-code-indicating-where-to-replace-the-formspree-endpoint-url",
+      "featureTitle": "Build a contact section with CTA headline 'Let's Build Impact Together' and a form with fields: Name, Organization, Phone, Email, Campaign Objective (textarea). Integrate the form with Formspree so submissions are sent via POST to a Formspree endpoint. Show a success message after submission. Include a comment in code indicating where to replace the Formspree endpoint URL.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-minimal-footer-with-navigation-links-about-solutions-industries-contact-social-media-icon-placeholders-and-tagline-strategic-marketing-community-impact-style-consistently-with-the-deep-blue-emerald-green-brand-palette",
+      "featureTitle": "Build a minimal footer with navigation links (About, Solutions, Industries, Contact), social media icon placeholders, and tagline: 'Strategic Marketing. Community Impact.' Style consistently with the deep blue/emerald green brand palette.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-a-consistent-design-system-across-all-sections-primary-color-deep-blue-0b3d91-accent-emerald-green-soft-aqua-gradient-as-secondary-white-background-use-bold-sans-serif-headings-and-clean-body-typography-add-subtle-scroll-triggered-animations-fade-in-on-section-entry-ensure-the-overall-aesthetic-is-premium-minimal-corporate-and-trust-building-with-no-clutter",
+      "featureTitle": "Apply a consistent design system across all sections: Primary color deep blue (#0B3D91), accent emerald green, soft aqua gradient as secondary, white background. Use bold sans-serif headings and clean body typography. Add subtle scroll-triggered animations (fade-in) on section entry. Ensure the overall aesthetic is premium, minimal, corporate, and trust-building with no clutter.",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-render-the-generated-images-community-event-illustration-and-hero-background-as-static-assets-from-frontend-public-assets-generated-and-reference-them-in-the-appropriate-sections",
+      "featureTitle": "Render the generated images (community event illustration and hero background) as static assets from frontend/public/assets/generated and reference them in the appropriate sections.",
+      "files": [
+        "frontend/src/components/HeroSection.tsx",
+        "frontend/src/components/SocialImpactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

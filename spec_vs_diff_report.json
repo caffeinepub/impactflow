@@ -1,0 +1,72 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-28T20:18:37.163Z",
+  "summary": "The diff implements a comprehensive single-page marketing website for ImpactFlow covering nearly all specified requirements. All major sections are present (Navbar, Hero, About, Water Solution, Industries, How It Works, Social Impact, Why Choose Us, Contact, Footer) with proper design system, Formspree integration, scroll animations, and responsive layouts. A few minor acceptance criteria gaps are noted, and some boilerplate ICP/Internet Identity scaffolding is present that was not requested.",
+  "missing_requirements": [],
+  "hallucinated_features": [
+    {
+      "description": "Internet Identity authentication provider and useInternetIdentity hook are included in the application bootstrap",
+      "reason": "The build request explicitly states 'No user authentication or login system' as a non-goal. The main.tsx wraps the app in InternetIdentityProvider, and useInternetIdentity.ts is included, which was not requested.",
+      "evidence": [
+        "frontend/src/main.tsx",
+        "frontend/src/hooks/useInternetIdentity.ts"
+      ]
+    },
+    {
+      "description": "ICP backend actor and useActor hook scaffolding included",
+      "reason": "The build request has no backend requirements (non-goal: 'No backend data storage or CMS integration'). The useActor.ts hook with createActorWithConfig and backend interface references is boilerplate not requested.",
+      "evidence": [
+        "frontend/src/hooks/useActor.ts",
+        "backend/main.mo"
+      ]
+    },
+    {
+      "description": "Stat cards grid in the About section displaying metrics (10+ Years, 200+ Campaigns, 50+ Cities, 1M+ People Reached)",
+      "reason": "REQ-3 specifies the About section body copy and four bullet points. No stat cards or metrics were specified in the build request for this section.",
+      "evidence": [
+        "frontend/src/components/AboutSection.tsx"
+      ]
+    },
+    {
+      "description": "A sixth 'Your Industry?' CTA card added to the five industry cards grid",
+      "reason": "REQ-5 specifies exactly five industry cards. The implementation adds a sixth promotional CTA card to the grid which was not requested.",
+      "evidence": [
+        "frontend/src/components/IndustriesSection.tsx"
+      ]
+    },
+    {
+      "description": "A sixth '100% Community-First Approach' highlight card added to the five Why Choose Us cards",
+      "reason": "REQ-8 specifies exactly five value proposition cards. The implementation adds a sixth decorative highlight card which was not requested.",
+      "evidence": [
+        "frontend/src/components/WhyChooseUsSection.tsx"
+      ]
+    }
+  ],
+  "confidence": 0.82,
+  "changed_files": [
+    "all_files_summary.json",
+    "backend/main.mo",
+    "frontend-file-summaries.txt",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/src/App.tsx",
+    "frontend/src/components/AboutSection.tsx",
+    "frontend/src/components/ContactSection.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/HeroSection.tsx",
+    "frontend/src/components/HowItWorksSection.tsx",
+    "frontend/src/components/IndustriesSection.tsx",
+    "frontend/src/components/Navbar.tsx",
+    "frontend/src/components/SocialImpactSection.tsx",
+    "frontend/src/components/WaterSolutionSection.tsx",
+    "frontend/src/components/WhyChooseUsSection.tsx",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/hooks/useScrollAnimation.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/tailwind.config.js",
+    "project_state.json"
+  ]
+}

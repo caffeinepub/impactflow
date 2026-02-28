@@ -1,0 +1,269 @@
+{
+  "kind": "build_request",
+  "title": "ImpactFlow — Social Impact Marketing Agency Website",
+  "projectName": "ImpactFlow",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a responsive navigation bar with the 'ImpactFlow' brand name styled as a text logo using deep blue (#0B3D91) and emerald green. Include nav links: About, Solutions, Industries, How It Works, Contact. Add a sticky/scroll effect and smooth scroll to sections.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Minimal footer with: About, Solutions, Industries, Contact"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Navbar is sticky on scroll",
+        "Logo uses deep blue and emerald green typography",
+        "All nav links scroll smoothly to their respective sections",
+        "Navbar is fully responsive on mobile (hamburger menu)"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Build a hero section with headline 'Where Marketing Meets Social Impact', subheadline 'We help schools, hospitals, and growing brands connect with communities through purpose-driven offline campaigns.', and two CTA buttons: 'Start a Campaign' (primary) and 'Partner With Us' (secondary outline). Background should be a soft abstract water-inspired gradient (deep blue to soft aqua) with subtle floating bottle silhouettes rendered in CSS/SVG, minimal and modern.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "HERO SECTION",
+          "Headline: Where Marketing Meets Social Impact",
+          "Soft abstract water-inspired gradient with subtle floating bottle silhouettes"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Headline and subheadline render prominently with bold typography",
+        "Two CTA buttons are visible and styled per brand colors",
+        "Background gradient transitions from deep blue to soft aqua",
+        "Floating bottle silhouettes are subtle and not distracting",
+        "Section is full-viewport height on desktop"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Build an 'About Us' section titled 'Redefining Grassroots Marketing' with the provided body copy and a four-point bullet list: Strategic local outreach, Free community giveaways, Responsible brand messaging, High-trust public engagement. End with the line: 'We believe marketing works best when it benefits both brands and people.'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "ABOUT US SECTION",
+          "Redefining Grassroots Marketing"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section title, body copy, and four bullet points all render correctly",
+        "Closing line is visually distinct (e.g., italic or accent color)",
+        "Layout is clean, uncluttered, and responsive"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Build a 'Water Marketing Solution' section titled 'Branded Water Distribution Campaigns' with the provided body copy, a four-point campaign inclusions list, and pricing details (Minimum Order: 25,000 branded bottles, ₹8 per bottle, excluding campaign customization). Include a CSS/SVG illustrated mineral water bottle mockup with a customizable label area, styled minimally in brand colors.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "WATER MARKETING SOLUTION SECTION",
+          "Mockup of a clean mineral water bottle with customizable label area"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All body copy and bullet points render correctly",
+        "Pricing is displayed professionally without profit/margin language",
+        "CSS/SVG bottle mockup is clean, minimal, and visually on-brand",
+        "Section layout is responsive"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Build a 'Target Industries' section titled 'Built for Impact-Driven Brands' showing five icon cards: Schools & Educational Institutions, Colleges & Coaching Centers, Hospitals & Healthcare Providers, Community Events & Social Campaigns, Local Businesses & Expanding Brands. Each card has an icon and short label. Add tagline: 'We specialize in organizations that serve people across all age groups.'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "TARGET INDUSTRIES SECTION",
+          "Built for Impact-Driven Brands"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Five industry cards render with distinct icons and labels",
+        "Tagline appears below the cards",
+        "Cards are displayed in a responsive grid",
+        "Icons use brand accent colors"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Build a 'How It Works' section with a clean 5-step process: (1) Campaign Planning, (2) Custom Branding, (3) Production & Quality Check, (4) Targeted Distribution, (5) Campaign Report. Each step has a numbered icon, title, and short description. Include subtle entrance animations (fade-in or slide-in on scroll).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "HOW IT WORKS SECTION",
+          "Use clean step icons and smooth animations"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All five steps render with icons, titles, and descriptions",
+        "Steps are visually connected (e.g., connecting line or arrow)",
+        "Entrance animations trigger on scroll",
+        "Layout is responsive (stacks vertically on mobile)"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Build a 'Social Impact' section titled 'Marketing With Meaning' with the provided body copy about community utility, hydration, and responsible brand visibility. Include a generated community illustration image as the section visual.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "SOCIAL IMPACT SECTION",
+          "Marketing With Meaning"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section title and body copy render correctly",
+        "Community illustration image is displayed as section visual",
+        "Section layout is responsive with text and image side by side on desktop"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Build a 'Why Choose Us' section with five value proposition points displayed as icon + text cards: Transparent campaign structure, Hyperlocal targeting expertise, Clean and compliant branding, Strong community engagement, Designed for trust-building.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "WHY CHOOSE US SECTION"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All five points render with icons and text",
+        "Cards are displayed in a clean grid layout",
+        "Design is minimal and consistent with brand colors"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Build a contact section with CTA headline 'Let's Build Impact Together' and a form with fields: Name, Organization, Phone, Email, Campaign Objective (textarea). Integrate the form with Formspree so submissions are sent via POST to a Formspree endpoint. Show a success message after submission. Include a comment in code indicating where to replace the Formspree endpoint URL.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2",
+          "msg-3"
+        ],
+        "quotes": [
+          "CONTACT SECTION",
+          "Let's Build Impact Together",
+          "integrate it with Formspree"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All five form fields render and are required",
+        "Form submits via POST to Formspree endpoint",
+        "Success message displays after successful submission",
+        "Formspree endpoint URL is clearly marked with a comment for easy replacement",
+        "Form is styled consistently with the brand"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Build a minimal footer with navigation links (About, Solutions, Industries, Contact), social media icon placeholders, and tagline: 'Strategic Marketing. Community Impact.' Style consistently with the deep blue/emerald green brand palette.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "FOOTER",
+          "Strategic Marketing. Community Impact."
+        ]
+      },
+      "acceptanceCriteria": [
+        "All four nav links are present and functional",
+        "Social media icon placeholders are rendered",
+        "Tagline is displayed",
+        "Footer background uses brand deep blue color",
+        "Layout is responsive"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Apply a consistent design system across all sections: Primary color deep blue (#0B3D91), accent emerald green, soft aqua gradient as secondary, white background. Use bold sans-serif headings and clean body typography. Add subtle scroll-triggered animations (fade-in) on section entry. Ensure the overall aesthetic is premium, minimal, corporate, and trust-building with no clutter.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Design Guidelines",
+          "Modern",
+          "Minimal",
+          "Corporate",
+          "Trust-building",
+          "Subtle animation"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color palette is consistent across all sections",
+        "Typography hierarchy is clear and uses sans-serif fonts",
+        "Scroll-triggered fade-in animations are present on at least the main content sections",
+        "No section feels overcrowded or cluttered",
+        "Site is fully responsive across mobile, tablet, and desktop"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Render the generated images (community event illustration and hero background) as static assets from frontend/public/assets/generated and reference them in the appropriate sections.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Images load correctly from the /assets/generated path",
+        "Hero background image is applied to the hero section",
+        "Community illustration image is displayed in the Social Impact section"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not use loud or flashy design elements — keep the aesthetic minimal and premium",
+    "Do not mention profit margins or business costs in the water bottle pricing section",
+    "Contact form must use Formspree for submission handling (no backend required)",
+    "All sections must be single-page with smooth scroll navigation"
+  ],
+  "nonGoals": [
+    "No backend data storage or CMS integration",
+    "No user authentication or login system",
+    "No real-time features or chat",
+    "No e-commerce or payment processing",
+    "No actual logo image file — text-based logo only"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Minimalistic illustration of people at a community outdoor event receiving water bottles, soft warm tones with green and blue accents, modern flat art style (community-event.dim_1200x600.png)",
+      "Abstract water-inspired background with soft deep blue to aqua gradient and faint translucent bottle silhouettes, clean and premium (hero-bg.dim_1920x1080.png)"
+    ],
+    "edits": []
+  }
+}

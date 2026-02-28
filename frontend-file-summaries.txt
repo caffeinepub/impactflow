@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Root application component that assembles all page sections in order — Navbar, Hero, About, Water Solution, Industries, How It Works, Social Impact, Why Choose Us, Contact, and Footer.",
+  "frontend/src/hooks/useScrollAnimation.ts": "Custom hook using IntersectionObserver to detect when elements enter the viewport and return a visibility boolean for triggering CSS entrance animations.",
+  "frontend/src/components/Navbar.tsx": "Sticky responsive navigation bar with the ImpactFlow text logo (deep blue + emerald green), smooth-scroll nav links, and a mobile hamburger menu with slide-down panel.",
+  "frontend/src/components/HeroSection.tsx": "Full-viewport hero section with a deep-blue-to-aqua gradient background, hero image overlay, floating SVG bottle silhouettes with CSS animations, headline, subheadline, two CTA buttons, and a stats row.",
+  "frontend/src/components/AboutSection.tsx": "About Us section with headline, body copy, four bullet points, closing quote, and stat cards — updated `flex-shrink-0` to `shrink-0` for Tailwind v3 compliance.",
+  "frontend/src/components/WaterSolutionSection.tsx": "Water Marketing Solution section with SVG bottle mockup, campaign inclusions list, and pricing card — updated `flex-shrink-0` to `shrink-0` for Tailwind v3 compliance.",
+  "frontend/src/components/IndustriesSection.tsx": "Target Industries section with five icon cards for each industry vertical plus a CTA card, displayed in a responsive grid with hover animations.",
+  "frontend/src/components/HowItWorksSection.tsx": "Five-step process section with numbered icon circles, a horizontal connector line on desktop, step titles and descriptions, and a bottom CTA button.",
+  "frontend/src/components/SocialImpactSection.tsx": "Social Impact section with community event image, body copy, and three pillar cards — updated `flex-shrink-0` to `shrink-0` for Tailwind v3 compliance.",
+  "frontend/src/components/WhyChooseUsSection.tsx": "Why Choose Us section with five value proposition cards and a highlight card, fixed by removing the erroneous conditional className expression that caused the parse error.",
+  "frontend/src/components/ContactSection.tsx": "Contact form section with Formspree integration, success state, and five required fields — updated `flex-shrink-0` to `shrink-0` and `placeholder-*` to `placeholder:text-*` for Tailwind v3 compliance.",
+  "frontend/src/components/Footer.tsx": "Deep-navy footer with the ImpactFlow logo, tagline, navigation links, social media icons, contact details, copyright line, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/index.css": "Global stylesheet defining the ImpactFlow OKLCH brand color system (deep blue, emerald green, aqua, navy, slate), Plus Jakarta Sans + Inter typography, and keyframe animations for floating bottles and fade-in-up effects.",
+  "frontend/tailwind.config.js": "Extended Tailwind config adding brand color tokens (brand-blue, brand-green, brand-aqua, brand-navy, brand-slate, brand-surface), display font family, custom box shadows, and animation keyframes for the ImpactFlow design system."
+}
